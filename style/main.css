@@ -43,7 +43,8 @@
   align-items: center;
   position: relative;
 }
-.icon img, .icon svg {
+.icon img,
+.icon svg {
   max-width: 100%;
 }
 
@@ -389,6 +390,10 @@
 
   .blogger-stat__stat-post {
     padding: 0 10px;
+  }
+
+  .blogger-stat__stat-user-stat {
+    padding-left: 0;
   }
 }
 @media screen and (max-width: 812px) {
