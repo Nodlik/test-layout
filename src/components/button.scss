@@ -10,11 +10,11 @@
 
     &:active {
         padding: 12px 13px 8px 13px;
-	}
-	
-	&:focus {
-		outline: none;
-	}
+    }
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .button_primary {
@@ -24,11 +24,11 @@
 
     &:hover {
         background-color: darken($buttonPrimaryColor, 5%);
-	}
-	
-	&:focus {
-		border: solid 1px darken($buttonPrimaryColor, 20%);
-	}
+    }
+
+    &:focus {
+        border: solid 1px darken($buttonPrimaryColor, 20%);
+    }
 }
 
 .button_light {
@@ -37,10 +37,10 @@
     color: $mainFontColor;
 
     &:hover {
-		background-color: darken($buttonLightColor, 5%);
-	}
-	
-	&:focus {
-		border: solid 1px darken(#d5dfe4, 20%);
-	}
+        background-color: darken($buttonLightColor, 5%);
+    }
+
+    &:focus {
+        border: solid 1px darken(#d5dfe4, 20%);
+    }
 }
