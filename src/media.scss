@@ -2,6 +2,6 @@ $s-point: '585px';
 $m-point: '812px';
 $l-point: '1120px';
 
-$lessThan_LPoint: "screen and (max-width: #{$l-point})";
-$lessThan_MPoint: "screen and (max-width: #{$m-point})";
-$lessThan_SPoint: "screen and (max-width: #{$s-point})";
+$lessThan_LPoint: 'screen and (max-width: #{$l-point})';
+$lessThan_MPoint: 'screen and (max-width: #{$m-point})';
+$lessThan_SPoint: 'screen and (max-width: #{$s-point})';
