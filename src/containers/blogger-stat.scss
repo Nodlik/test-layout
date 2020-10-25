@@ -64,6 +64,10 @@
     .blogger-stat__stat-post {
         padding: 0 10px;
     }
+
+    .blogger-stat__stat-user-stat {
+        padding-left: 0;
+    }
 }
 
 @media #{$lessThan_MPoint} {
