@@ -1,0 +1,11 @@
+.icon {
+	display: inline-flex;
+	align-items: center;
+
+	position: relative;
+
+	// Определить в зависимости от реализации компонента
+	img, svg {
+		max-width: 100%;
+	}
+}

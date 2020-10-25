@@ -1,0 +1,12 @@
+$headerColor: #ffffff;
+
+.header {
+    overflow: hidden;
+
+    width: 100%;
+
+    background-color: $headerColor;
+    border-bottom: solid 1px #d5dfe4;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

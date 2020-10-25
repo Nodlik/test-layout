@@ -1,0 +1,22 @@
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+	min-height: 50px;
+	padding: 10px 10px;
+    background-color: #424858;
+
+    a {
+        padding: 5px 15px;
+
+		font-size: 90%;
+        color: #ffffff;
+
+        &:hover {
+            color: #eeeeee;
+        }
+    }
+}

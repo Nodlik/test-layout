@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- <link rel="icon" href="favicon.ico" /> -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="" />
+
+        <!-- <link rel="apple-touch-icon" href="logo192.png" /> -->
+        <!-- <link rel="manifest" href="manifest.json" /> -->
+
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style/main.css" />
+
+        <title>Easyprbot - Test</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Шапка сайта (фиксированная)  -->
+            <header class="wrapper__header header">
+                <!-- Полоса навигации и основных действий  -->
+                <nav class="container nav">
+                    <div class="nav__content">
+                        <!-- Блок логотипа  -->
+                        <div class="nav__logo logo-block">
+                            <a class="logo-block__icon" href="/"><img src="img/logo.png" alt="Easyprbot" /></a>
+                            <div class="logo-block__text">
+                                <a class="logo-block__name" href="/">Easyprbot</a>
+                                <a class="logo-block__insta" href="/">@easyprbot</a>
+                            </div>
+                        </div>
+
+                        <!-- Блок навигации  -->
+                        <ul class="navbar nav__menu">
+                            <li class="navbar__link"><a href="#">Гивы</a></li>
+                            <li class="navbar__link">
+                                <a href="#">
+                                    Отзывы
+                                    <!-- Рекомендуется заменить на inline svg -->
+                                    <span class="navbar__icon icon"><img src="img/icons/arrow_down.svg" alt="" /></span>
+                                </a>
+                            </li>
+                            <li class="navbar__link"><a href="#">Трекер рекламы</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Блок кнопки аккаунта пользователя  -->
+                    <div class="nav__account">
+                        <button class="nav__account-button user-button">
+                            <img class="user-button__image" src="img/account.svg" alt="User name" />
+                        </button>
+                    </div>
+                </nav>
+            </header>
+
+            <section class="wrapper__actions">
+                <div class="container actions">
+                    <h1 class="actions__header">Моя карточка</h1>
+                    <div class="actions__buttons">
+                        <button class="button button_primary">Редактировать</button>
+                        <button class="button button_light">Скопировать ссылку</button>
+                        <button class="button button_light">&#x1F47B; Скрыть с сайта</button>
+                    </div>
+                </div>
+            </section>
+
+            <main class="wrapper__main">
+                <div class="container main">
+                    <!-- Блок статистики блоггера-->
+                    <div class="blogger-stat">
+                        <div class="blogger-stat__blogger">
+
+                            <!-- Блок информации о блоггере-->
+                            <div class="blogger-info">
+                                <a href="#" class="blogger-info__photo">
+                                    <img src="img/photo.jpg" alt="neotpuskaiteplo" />
+                                </a>
+                                <a href="#" class="blogger-info__link"> neotpuskaiteplo </a>
+                                <span class="blogger-info__followers">54,9 тыс. подписчиков</span>
+                                <span class="blogger-info__subject"
+                                    >Темы: Обработка фото, Изучение языков, Жизнь за границей</span
+                                >
+                            </div>
+                        </div>
+
+                        <!-- Блоки статистики об охвате-->
+                        <div class="blogger-stat__stat-stories">
+                            <div class="avg-info">
+                                <span class="avg-info__count">20 197</span>
+                                <span class="avg-info__text">Охват сторис<br /><em>в среднем</em></span>
+                            </div>
+                        </div>
+
+                        <div class="blogger-stat__stat-post">
+                            <div class="avg-info">
+                                <span class="avg-info__count">38 967</span>
+                                <span class="avg-info__text">Охват постов<br /><em>в среднем</em></span>
+                            </div>
+                        </div>
+
+                        <!-- Блоки информации об аудитории-->
+                        <div class="blogger-stat__stat-users">
+                            <div class="user-stat-title">
+                                <div class="user-stat-title__header">Преобладающая статистика аудитории</div>
+                                <div class="user-stat-title__desc">
+                                    <a href="#">Скриншоты</a> статистики из Инстаграма от: 18.09.2020
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blogger-stat__stat-user-stat user-stat">
+                            <div class="user-stat-block">
+                                <span class="user-stat-block__header">Пол</span>
+                                <span class="user-stat-block__desc">Женщины — 89%</span>
+                            </div>
+                            <div class="user-stat-block">
+                                <span class="user-stat-block__header">Страна</span>
+                                <span class="user-stat-block__desc">Россия — 66%</span>
+                            </div>
+                            <div class="user-stat-block">
+                                <span class="user-stat-block__header">Дата обновления</span>
+                                <span class="user-stat-block__desc">18.09.2020</span>
+                            </div>
+                            <div class="user-stat-block">
+                                <span class="user-stat-block__header">Возраст</span>
+                                <span class="user-stat-block__desc">18-24 - 48%</span>
+                            </div>
+                            <div class="user-stat-block">
+                                <span class="user-stat-block__header">Город</span>
+                                <span class="user-stat-block__desc">Санкт-Петербург - 21%</span>
+                            </div>
+                            <div class="user-stat-block">
+                                <span class="user-stat-block__header">Средний рейтинг</span>
+                                <span class="user-stat-block__desc">
+                                    <img src="img/icons/star.svg" alt="" />
+                                    <span>6,4 из <a href="#">47 отзывов</a></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Блоки с таблицей о формате рекламы-->
+                    <div class="ad-format">
+                        <h2 class="ad-format__header">Форматы рекламы</h2>
+                        <p class="ad-format__text">
+                            ❗Чтобы избежать мошенников, обязательно
+                            <strong>запросите подтверждение с основного аккаунта</strong>
+                            блогера до оплаты. <a href="#">Инструкция</a>
+                        </p>
+
+                        <div class="ad-format__table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Формат рекламы</th>
+                                        <th>Цена рекламы</th>
+                                        <th>Условия</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="table__format-cell">
+                                            <div class="table__format">
+                                                <img src="img/icons/icon_stories.svg" alt="" /><span>
+                                                    Сторис 30 сек.
+                                                </span>
+                                            </div>
+                                        </td>
+                                        <td>10 888 500 ₽</td>
+                                        <td>
+                                            Набор на ноябрь. Личные блоги. Пост без удаления из аккаунта. Цена + товар +
+                                            промокод на скидку для моих подписчиков.
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="table__format-cell">
+                                            <div class="table__format">
+                                                <img src="img/icons/icon_stories.svg" alt="" />
+                                                <span>Сторис 30 сек.</span>
+                                            </div>
+                                        </td>
+                                        <td>445 000 ₽</td>
+                                        <td>Набор на ноябрь. Личные блоги. 2-3 разговорных сторис о блоге.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="table__format-cell">
+                                            <div class="table__format">
+                                                <img src="img/icons/icon_post.svg" alt="" /><span>Фото-пост</span>
+                                            </div>
+                                        </td>
+                                        <td>15 000 ₽</td>
+                                        <td>Набор на декабрь. Коммерция. Пост без удаления из аккаунта.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="table__format-cell">
+                                            <div class="table__format">
+                                                <img src="img/icons/icon_video.svg" alt="" /><span>Видео-пост</span>
+                                            </div>
+                                        </td>
+                                        <td>9 500 ₽</td>
+                                        <td>
+                                            Набор на январь. Личные блоги. До 4 сторис. В основном, 1-2 видеоподводки,
+                                            1-2 макета + скрин интересного поста (на него хорошие переходы).
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="table__format-cell">
+                                            <div class="table__format">
+                                                <img src="img/icons/icon_stories.svg" alt="" /><span>Сторис+пост</span>
+                                            </div>
+                                        </td>
+                                        <td>13 300 ₽</td>
+                                        <td>Набор на ноябрь. Личные блоги. 2-3 разговорных сторис о блоге.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="ad-format__note">
+                            <p>
+                                Блогер не рекламирует: сетевой бизнес, астрология, гадания, казино и прочую херню,
+                                казино, карты таро, гадание, порнографический контент, пирамиды, подделки,
+                                некачественные товары, похудение, фитнес и тд, питание, пп, ип, рпп и тд , мамские
+                                блоги, смм, обработка, путешествия, сетевики.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="footer">
+                <a href="#">Пользовательское соглашение</a>
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Написать в техподдержку</a>
+            </footer>
+        </div>
+    </body>
+</html>

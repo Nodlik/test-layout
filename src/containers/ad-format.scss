@@ -1,0 +1,57 @@
+.ad-format {
+    padding: 24px 0 0 0;
+}
+
+.ad-format__header {
+    margin: 0 30px 16px 30px;
+    padding: 0;
+
+    font-weight: normal;
+    font-size: 125%;
+}
+
+.ad-format__text {
+    margin: 0 30px;
+	padding: 0;
+	
+	strong {
+		font-weight: 500;
+	}
+}
+
+.ad-format__table {
+    margin: 20px 0 0 0;
+    padding: 0;
+
+    overflow-x: auto;
+}
+
+.ad-format__note {
+    background-color: #fffce3;
+    font-size: 90%;
+
+    p {
+        margin: 0;
+        padding: 12px 30px;
+    }
+}
+
+@media #{$lessThan_MPoint} {
+    .ad-format__header {
+        margin: 0 10px 10px 10px;
+    }
+
+    .ad-format__text {
+        margin: 0 10px;
+    }
+
+    .ad-format__table {
+        margin: 20px 0 0 0;
+    }
+
+    .ad-format__note {
+        p {
+            padding: 12px 10px;
+        }
+    }
+}

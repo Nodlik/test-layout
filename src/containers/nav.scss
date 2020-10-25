@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__content {
+    display: flex;
+    align-items: center;
+}
+
+.nav__menu {
+    margin: 0 0 0 59px;
+}
+
+.nav__account-button {
+    width: 36px;
+    height: 36px;
+}
+
+@media #{$lessThan_SPoint} {
+    .nav__account {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .nav__content {
+        width: 100%;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .nav__menu {
+        margin: 0;
+    }
+}

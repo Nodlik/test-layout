@@ -1,0 +1,20 @@
+.user-stat-block__header {
+    display: block;
+    padding-bottom: 6px;
+
+    font-size: 90%;
+    color: $subFontColor;
+}
+
+// Не стал подключать font-awesome из-за одной иконки, но в дальнейшем рекомендуется использовать его (или другие библотеки иконок)
+.user-stat-block__desc {
+    vertical-align: top;
+
+    img {
+        // fix для конкретной картинки. Возможно будет нужно переверстать на flexbox
+		margin-top: -5px;
+
+        vertical-align: top;
+        width: 1.3em;
+    }
+}

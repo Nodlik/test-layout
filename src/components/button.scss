@@ -1,0 +1,46 @@
+.button {
+    display: block;
+
+    border-radius: 5px;
+    padding: 10px 13px;
+
+    font-size: 90%;
+    white-space: nowrap;
+    line-height: 1;
+
+    &:active {
+        padding: 12px 13px 8px 13px;
+	}
+	
+	&:focus {
+		outline: none;
+	}
+}
+
+.button_primary {
+    border: solid 1px $buttonPrimaryColor;
+    background-color: $buttonPrimaryColor;
+    color: #ffffff;
+
+    &:hover {
+        background-color: darken($buttonPrimaryColor, 5%);
+	}
+	
+	&:focus {
+		border: solid 1px darken($buttonPrimaryColor, 20%);
+	}
+}
+
+.button_light {
+    border: 1px solid #d5dfe4;
+    background-color: $buttonLightColor;
+    color: $mainFontColor;
+
+    &:hover {
+		background-color: darken($buttonLightColor, 5%);
+	}
+	
+	&:focus {
+		border: solid 1px darken(#d5dfe4, 20%);
+	}
+}
