@@ -65,9 +65,9 @@ button {
 
 a {
     color: $linkColor;
-	text-decoration: none;
-	
-	&:hover {
-		color: lighten($linkColor, 10%);
-	}
+    text-decoration: none;
+
+    &:hover {
+        color: lighten($linkColor, 10%);
+    }
 }
